@@ -12,13 +12,13 @@ html {
     width: 100vw;
     height: 100vh;
     font-size: 62.5%;
-    color: white;
+    color: rgb(231, 220, 220);
     
     font-family: 'Lato', sans-serif;
 }
 
 body {
-    background:linear-gradient(rgba(98, 60, 60, 0.8), rgba(111, 81, 81, 0.6)), url(./imagens/salatcc.jpg);
+    background:linear-gradient(rgba(41, 22, 22, 0.8), rgba(3, 1, 1, 0.9)), url(./imagens/salatcc.jpg);
     background-position: center center;
     background-size: cover;
     background-position-y: 0px;
@@ -56,7 +56,7 @@ header {
 
 .menu-content .list-itens a {
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: rgb(231, 220, 220);
     padding: 1.5rem;
     transform: 2ms ease-in;
     position: relative;
@@ -69,7 +69,7 @@ header {
    left: 0;
    width: 0px;
    height: 1px;
-   background-color: rgba(68, 59, 11, 0.767);
+   background-color: rgba(255, 255, 255, 0.767);
    transition: all 1.5s ease;
 }
 
@@ -105,7 +105,7 @@ main {
     display: flex;
     margin-bottom: 5rem;
     font-size: 2rem;
-    color: rgb(97, 100, 83);
+    color: rgb(231, 220, 2205);
     text-transform: uppercase;
     justify-content: center;
 }
@@ -121,7 +121,7 @@ main {
     height: 35px;
     color: pointer;
     border: 1px solid white;
-    color: white;
+    color: rgb(255, 255, 255);
     text-transform: uppercase;
     background-color: transparent;
     font-weight: bold;
@@ -132,7 +132,7 @@ main {
 }
 
 .btns button:hover {
-    color:rgb(251, 255, 0);
+    color:rgb(212, 14, 14);
     border: none;
 
 }
@@ -145,7 +145,7 @@ main {
      position: absolute;
      width: 0%;
      height: 35px;
-     background-color: rgba(192,217,217);
+     background-color: rgb(235, 242, 242);
      z-index: -1;
      transition: 1s;
 }
