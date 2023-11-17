@@ -5,6 +5,7 @@
   --btn-cover-color: rgba(16, 117, 117, 0.2);
   --underline-menu-iten-color: rgba(255, 255, 255, 0.767);
   --menu-header-background-color: rgba(22, 22, 22, 0.2);
+  --chart-background-color: rgb(255, 255, 255);
 }
 
 /*Página Web*/
@@ -148,4 +149,21 @@ main {
 
 .panel button:hover:before {
   width: 100%;
+}
+
+.chart {
+  display: flex;
+  justify-content: center;
+
+  background: url(/assets/images/sala.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-position-y: 0px;
+  background-repeat: no-repeat;
+  padding: 50px 0px;
+}
+
+.chart-container {
+  width: 60%;
+  background-color: var(--chart-background-color);
 }
