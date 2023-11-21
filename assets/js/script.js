@@ -2,7 +2,7 @@ const btnON = document.getElementById("btn-ON"),
   btnOFF = document.getElementById("btn-OFF"),
   btnVERIFY = document.getElementById("btn-VERIFY");
 
-const urlServer = "ws://192.168.43.100:81";
+const urlServer = "ws://10.0.0.183:81";
 const browserSupportsWebsocket = "WebSocket" in window;
 
 let controller = {
@@ -104,7 +104,9 @@ if (browserSupportsWebsocket) {
 
     btnOFF.onclick = (event) => sendRequest("D");
 
-    btnVERIFY.onclick = (event) => alert(controller.message);
+    /*btnVERIFY.onclick = (event) => scrollIntoView.(
+      behavior: "smooth"
+    );*/
   });
 
   connection.addEventListener("close", function (event) {
